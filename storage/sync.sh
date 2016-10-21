@@ -32,7 +32,9 @@ rm -f /etc/openvpn/lock/synced
 unlock
 
 # Sync
+echo 'Syncing from S3...'
 aws s3 sync s3://${S3_BUCKET}/ /etc/openvpn --exclude 'lock/*'
+echo 'Done.'
 
 exlock
 touch /etc/openvpn/lock/synced
