@@ -7,5 +7,5 @@ RUN mkdir -p /etc/openvpn/lock
 VOLUME /etc/openvpn
 WORKDIR /etc/openvpn
 
-COPY sync.sh /usr/local/bin/sync.sh
+COPY sync.sh upload.sh /usr/local/bin/
 CMD ["sync.sh"]
