@@ -1,4 +1,6 @@
 #!/bin/sh
+
+# From: https://gist.github.com/przemoc/571091
 ## Copyright (C) 2009  Przemyslaw Pawelczyk <przemoc@gmail.com>
 ## License: GNU General Public License v2, v3
 #
