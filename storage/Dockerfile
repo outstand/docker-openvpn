@@ -1,4 +1,4 @@
-FROM python:3-alpine3.7
+FROM python:3-alpine
 MAINTAINER Ryan Schlesinger <ryan@outstand.com>
 
 RUN pip install awscli
